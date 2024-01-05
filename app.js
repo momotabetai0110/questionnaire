@@ -54,5 +54,7 @@ document.getElementById('next-button3').addEventListener('click', function() {
     alert('回答を選択してください。');
   }
 });
-
+document.getElementById('next-button4').addEventListener('click',function(){
+  location.reload()
+})
 
